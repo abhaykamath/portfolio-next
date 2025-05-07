@@ -93,7 +93,7 @@ export default function Home() {
           >
             <Avatar className="h-32 w-32 mb-6">
               <AvatarImage
-                src="/placeholder.svg?height=128&width=128"
+                src="/favicon.ico"
                 alt="Abhay Kamath"
               />
               <AvatarFallback>AK</AvatarFallback>
@@ -493,16 +493,16 @@ export default function Home() {
           <h2 className="text-3xl font-bold mb-8">Contact</h2>
           <Card>
             <CardContent className="pt-6">
-              <div className="">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <div>
                   <h3 className="text-xl font-semibold mb-4">Get in touch</h3>
                   <p className="text-muted-foreground mb-6">
                     Feel free to reach out if you're looking for a developer,
                     have a question, or just want to connect.
                   </p>
-                  <div className="flex flex-col md:flex-row md:flex-wrap gap-8">
+                  <div className="space-y-4">
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline">
+                      <Button size="icon" variant="outline" className="hidden sm:flex">
                         <Mail className="h-4 w-4" />
                       </Button>
                       <div>
@@ -516,7 +516,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline">
+                      <Button size="icon" variant="outline" className="hidden sm:flex">
                         <Phone className="h-4 w-4" />
                       </Button>
                       <div>
@@ -525,7 +525,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline">
+                      <Button size="icon" variant="outline" className="hidden sm:flex">
                         <Github className="h-4 w-4" />
                       </Button>
                       <div>
@@ -541,7 +541,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline">
+                      <Button size="icon" variant="outline" className="hidden sm:flex">
                         <Linkedin className="h-4 w-4" />
                       </Button>
                       <div>
