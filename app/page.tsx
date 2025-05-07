@@ -83,7 +83,7 @@ export default function Home() {
 
       <main className="container pt-24 pb-16">
         {/* Hero Section */}
-        <section className="py-16 md:py-24">
+        <section className="">
           <motion.div
             className="flex flex-col items-center text-center"
             initial="hidden"
@@ -151,14 +151,14 @@ export default function Home() {
         {/* About Section */}
         <motion.section
           id="about"
-          className="py-16"
+          className="pt-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-8">About Me</h2>
+          <h2 className="text-3xl font-bold mb-8 pt-8">About Me</h2>
           <Card>
             <CardContent className="pt-6">
               <p className="text-lg leading-relaxed">
@@ -196,14 +196,14 @@ export default function Home() {
         {/* Experience Section */}
         <motion.section
           id="experience"
-          className="py-16"
+          className="pt-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-8">Experience</h2>
+          <h2 className="text-3xl font-bold mb-8 pt-8">Experience</h2>
           <div className="space-y-6">
             <Card>
               <CardHeader>
@@ -291,14 +291,14 @@ export default function Home() {
         {/* Skills Section */}
         <motion.section
           id="skills"
-          className="py-16"
+          className="pt-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-8">Skills</h2>
+          <h2 className="text-3xl font-bold mb-8 pt-8">Skills</h2>
           <Card>
             <CardContent className="pt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -357,14 +357,14 @@ export default function Home() {
 
         {/* Education Section */}
         <motion.section
-          className="py-16"
+          className="pt-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-8">Education</h2>
+          <h2 className="text-3xl font-bold mb-8 pt-8">Education</h2>
           <div className="space-y-6">
             <Card>
               <CardHeader>
@@ -399,14 +399,14 @@ export default function Home() {
         {/* Projects Section */}
         <motion.section
           id="projects"
-          className="py-16"
+          className="pt-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-8">Projects</h2>
+          <h2 className="text-3xl font-bold mb-8 pt-8">Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <Card className="flex flex-col h-full">
               <CardHeader>
@@ -483,14 +483,14 @@ export default function Home() {
         {/* Contact Section */}
         <motion.section
           id="contact"
-          className="py-16"
+          className="pt-16"
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
           variants={fadeIn}
           transition={{ duration: 0.5 }}
         >
-          <h2 className="text-3xl font-bold mb-8">Contact</h2>
+          <h2 className="text-3xl font-bold mb-8 pt-8">Contact</h2>
           <Card>
             <CardContent className="pt-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
