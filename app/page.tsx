@@ -92,10 +92,7 @@ export default function Home() {
             transition={{ duration: 0.5 }}
           >
             <Avatar className="h-32 w-32 mb-6">
-              <AvatarImage
-                src="/favicon.ico"
-                alt="Abhay Kamath"
-              />
+              <AvatarImage src="/favicon.ico" alt="Abhay Kamath" />
               <AvatarFallback>AK</AvatarFallback>
             </Avatar>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
@@ -432,7 +429,7 @@ export default function Home() {
               <CardFooter>
                 <Button asChild variant="outline" className="w-full">
                   <a
-                    href="#"
+                    href="https://form-forge-official.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -466,7 +463,7 @@ export default function Home() {
               <CardFooter>
                 <Button asChild variant="outline" className="w-full">
                   <a
-                    href="#"
+                    href="https://clever-snickerdoodle-c32e91.netlify.app/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2"
@@ -502,7 +499,11 @@ export default function Home() {
                   </p>
                   <div className="space-y-4">
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline" className="hidden sm:flex">
+                      <Button
+                        size="icon"
+                        variant="outline"
+                        className="hidden sm:flex"
+                      >
                         <Mail className="h-4 w-4" />
                       </Button>
                       <div>
@@ -516,7 +517,11 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline" className="hidden sm:flex">
+                      <Button
+                        size="icon"
+                        variant="outline"
+                        className="hidden sm:flex"
+                      >
                         <Phone className="h-4 w-4" />
                       </Button>
                       <div>
@@ -525,7 +530,11 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline" className="hidden sm:flex">
+                      <Button
+                        size="icon"
+                        variant="outline"
+                        className="hidden sm:flex"
+                      >
                         <Github className="h-4 w-4" />
                       </Button>
                       <div>
@@ -541,7 +550,11 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <Button size="icon" variant="outline" className="hidden sm:flex">
+                      <Button
+                        size="icon"
+                        variant="outline"
+                        className="hidden sm:flex"
+                      >
                         <Linkedin className="h-4 w-4" />
                       </Button>
                       <div>
